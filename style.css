@@ -1,0 +1,27 @@
+h1 {
+  text-align: center;
+}
+img {
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#nobutton {
+  color: black;
+  width: 150px;
+  height: 50px;
+  padding: 5px;
+  background-color: white;
+
+  position:absolute; right:45%; bottom:170px; width:80px; height:50px;
+}
+#yesbutton {
+  color: black;
+  width: 150px;
+  height: 50px;
+  padding: 5px;
+  background-color: white;
+
+  position:absolute; left:45%; bottom:170px; width:80px; height:50px;
+}
