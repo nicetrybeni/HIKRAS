@@ -28,6 +28,6 @@ img {
 @media only screen and (max-width:500px) {
   /* For mobile phones: */
   h1, img, #nobutton, #yesbutton {
-    width: 100%;
+    width: 50%;
   }
 }
