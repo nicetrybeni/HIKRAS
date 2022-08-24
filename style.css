@@ -25,9 +25,9 @@ img {
 
   position:absolute; left:45%; bottom:170px; width:80px; height:50px;
 }
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:600px) {
   /* For mobile phones: */
   h1, img, #nobutton, #yesbutton {
-    width: 50%;
+    width: 100%;
   }
 }
