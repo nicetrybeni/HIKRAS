@@ -27,7 +27,13 @@ img {
 }
 @media only screen and (max-width:600px) {
   /* For mobile phones: */
-  h1, img, #nobutton, #yesbutton {
+  h1, img {
     width: 100%;
+  }
+  #nobutton {
+    position:absolute; right: 55%; bottom:70px; width:80px; height:50px;
+  }
+  #yesbutton {
+    position:absolute; left:55%; bottom:70px; width:80px; height:50px;
   }
 }
