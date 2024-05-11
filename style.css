@@ -1,3 +1,10 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(240, 225, 225);
+}
+
 h1 {
   text-align: center;
 }
@@ -12,19 +19,18 @@ img {
   width: 150px;
   height: 50px;
   padding: 5px;
-  background-color: white;
-
-  position:absolute; right:45%; bottom:170px; width:80px; height:50px;
+  background-color: rgb(250, 248, 248);
+  position:absolute; right:45%; bottom:80px; width:80px; height:50px;
 }
 #yesbutton {
   color: black;
   width: 150px;
   height: 50px;
   padding: 5px;
-  background-color: white;
-
-  position:absolute; left:45%; bottom:170px; width:80px; height:50px;
+  background-color: rgb(250, 248, 248);
+  position:absolute; left:45%; bottom:80px; width:80px; height:50px;
 }
+
 @media only screen and (max-width:600px) {
   /* For mobile phones: */
   h1, img {
